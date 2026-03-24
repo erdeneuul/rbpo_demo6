@@ -1,0 +1,27 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### NEVER commit these - use GitHub Secrets instead! ###
+*.key
+*.p12
+*.jks
+*.b64
+.env
+certs/root-ca.key
+certs/intermediate-ca.key
+certs/server.key

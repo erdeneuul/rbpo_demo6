@@ -1,0 +1,4 @@
+basicConstraints=CA:TRUE,pathlen:0
+keyUsage=keyCertSign,cRLSign
+subjectKeyIdentifier=hash
+authorityKeyIdentifier=keyid:always
